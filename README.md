@@ -3,7 +3,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This is an small outline of the template.  
+This is a small outline of folders of the template.  
 
 | Folder | Function |
 |--------|-------------|
@@ -11,10 +11,28 @@ This is an small outline of the template.
 | [data](/data) | Stores raw or original data. 
 | [doc](/doc) | Documents generated during the project. 
 | [figs](/figs) | Figures and graphs, or other kind of images. 
+| [LicenseTemplates](/LicenseTemplates) | Templates in markdown format for licenses for code and content. 
 | [notes](/notes) | Notes or diary documents. 
 | [output](output) | Other outputs, like CSVs to share data. 
 | [R](/R) | Scripts with functions created for this project. 
 | [var](/var) | Stores your processed of intermediate data or variables. 
+
+Small outline of the files in the root of this project
+
+| File | Function |
+|------|----------|
+| [CONTRIBUTING-template.md](CONTRIBUTING-template.md) | A template file to explain how to contribute to your project. 
+| [CONTRIBUTING.md](/CONTRIBUTING.md) | This is a small code of conduct that explain how to contribute to this project. It's adapted from the [Contributor Covenant][homepage], version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html  
+| [LICENSE.md](/LICENSE.md) | The license you want to attribute to your code.  
+| [LICENSE4CONTENT.md](/LICENSE4CONTENT.md) | The license of the media files generate with the project. 
+| [README-template.md](/README-template.md) | A readme file template to you to modify for your project. 
+| [README.md](/README.md) | This is the readme file of this project and you are reading it right now.  
+| [TODO-template.md](/TODO-template.md) | 
+| [TODO.md](/TODO.md) | The pending task to do in this project. There is a template file to incorporate to this 
+
+## How to use this template
+
+
 
 ## Inspiration
 
@@ -31,6 +49,8 @@ This template tries to be an intermediate template for people that doesn't need 
 ## Contributing, cloning or forking this template
 
 Please fell free to comment or even contribute to this project in anyway you want to this template, this is just a beginning and I want to make as useful as possible to anyone. 
+
+I've included a CONTRIBUTING document in this template project, as well a contributing document template. 
 
 ### Prerequisites
 
@@ -90,7 +110,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Acknowledgments
 
@@ -98,3 +118,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 * Inspiration
 * etc
 
+[homepage]:https://www.contributor-covenant.org
