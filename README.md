@@ -47,7 +47,7 @@ You can clone, fork or directly download this project to use it. If you want to 
 git clone https://github.com/luisspuerto/R-Proj-Template.git
 ```
 
-Once you have the files I recommend you to choose a license for your the code and the content of your project, even more if you are going to share the project in GitHub, and then delete the `LicenseTemplates/` folder. Check the li [inspiration](### Installing)
+Once you have the files I recommend you to choose a license for your the code and the content of your project, even more if you are going to share the project in GitHub, and then delete the `LicenseTemplates/` folder. Check the li [inspiration](#installing)
 
 ## Inspiration
 
