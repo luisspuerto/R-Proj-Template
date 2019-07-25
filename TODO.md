@@ -4,3 +4,6 @@ This is the document that states the pending tasks for this project. You can ass
 
 * [ ] Create a more meaningful contributing document for this project.
 * [ ] Create a more meaningful contributing document for R projects. 
+* [ ] Update the R install from the [README][]
+
+[README]: README.md#prerequisites
