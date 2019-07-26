@@ -1,6 +1,11 @@
 # Project Title
 
-[![https://img.shields.io/badge/Lang-R-blue.svg](https://img.shields.io/badge/Lang-R-blue.svg)](https://www.r-project.org) [![https://img.shields.io/badge/Lang-RMarkdown-blue.svg](https://img.shields.io/badge/Lang-RMarkdown-blue.svg)](http://rmarkdown.rstudio.com) [![https://img.shields.io/badge/Lang-Markdown-yellowgreen.svg](https://img.shields.io/badge/Lang-Markdown-yellowgreen.svg)](https://en.wikipedia.org/wiki/Markdown) [![https://img.shields.io/badge/Apps-RStudio-blue.svg](https://img.shields.io/badge/Apps-RStudio-blue.svg)](https://www.rstudio.com) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![https://img.shields.io/badge/Lang-R-blue.svg](https://img.shields.io/badge/Lang-R-blue.svg)](https://www.r-project.org) 
+[![https://img.shields.io/badge/Lang-RMarkdown-blue.svg](https://img.shields.io/badge/Lang-RMarkdown-blue.svg)](http://rmarkdown.rstudio.com) 
+[![https://img.shields.io/badge/Lang-Markdown-yellowgreen.svg](https://img.shields.io/badge/Lang-Markdown-yellowgreen.svg)](https://en.wikipedia.org/wiki/Markdown) 
+[![https://img.shields.io/badge/Apps-RStudio-blue.svg](https://img.shields.io/badge/Apps-RStudio-blue.svg)](https://www.rstudio.com) 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 One Paragraph of project description goes here
 
