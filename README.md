@@ -82,7 +82,7 @@ Licensing your project isn't that important is you are working stand-alone, or i
 
 There are two files related to licenses, `LICENSE.md` and `LICENSE4CONTENT.md`. `LICENSE.md` is relate to the code and `LICENSE4CONTENT.md` is relate to the content that isn't code. The idea is that the code and the content of your project could —and perhaps should— have different licenses since they are sometimes different entities. Licenses like [GPL or MIT or so][OpenSourceLicense] aren't really suitable for media content, and licenses like [Creative Commons][CreativeCommonsLicense] aren't really suitable for code.  
 
-Please take into account that [IANAL][] and licensing R code sometimes is something **_controversial_**. I've seen long threads where the issue is discussed —even sometimes too passionately— to finally don't reach any clear conclusion. The problem lie in that R has a [`GPL-2` license][GPL-2] and it isn't clear if the scripts have to have the same license, since they need R to work and they aren't independent from it. 
+Please take into account that [IANAL][] and licensing R code sometimes is something **_controversial_**. I've seen long threads where the issue is discussed —even sometimes too passionately— to finally don't reach any clear conclusion. The problem lie in that R has a [`GPL-2-or-later` license][GPL-2-or-later] and it isn't clear if the scripts have to have the same license, since they need R to work and they aren't independent from it. 
 
 >If you are relying on packages, this likely means that you are relying on other R scripts which are going to be interpreted as well. Your program, by relying on these scripts is a derivative of them. Thus, you need to license your whole program (the packages you rely on + the part you wrote) under GPL as well. [(Source)][5]
 
@@ -225,7 +225,7 @@ Anyhow, [ProjectTemplate][] can be [customized][PTcustom] so feel free to adapt 
 [OpenSourceLicense]: https://en.wikipedia.org/wiki/Open-source_license
 [CreativeCommonsLicense]: https://en.wikipedia.org/wiki/Creative_Commons_license
 [IANAL]: https://www.urbandictionary.com/define.php?term=IANAL
-[GPL-2]: https://opensource.org/licenses/gpl-2.0.php
+[GPL-2-or-later]: https://spdx.org/licenses/GPL-2.0-or-later.html#licenseText
 [5]: https://opensource.stackexchange.com/questions/4666/license-for-r-scripts
 [12]: https://www.gnu.org/licenses/gpl-faq.html#GPLStaticVsDynamic
 [6]: https://opensource.stackexchange.com/questions/4414/if-my-r-package-uses-gpl-packages-does-mine-automatically-inherit-gpl
