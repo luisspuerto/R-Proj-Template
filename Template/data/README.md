@@ -14,13 +14,13 @@ I usually try to reserve this folder for just the original data and then use the
 
 If you just download raw data form the Internet or other sources it could be logic to store it here, even if it has been download using R. 
 
-# Folder / file one 
+## Folder / file one 
 
 - It is from...
 - It has the following characteristics...
 - It has the following license... 
 
-# Folder / file two 
+## Folder / file two 
 
 - ... 
 
