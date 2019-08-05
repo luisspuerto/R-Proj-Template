@@ -149,7 +149,7 @@ $ find ./*/ -name 'README.md' -delete
 - **[doc/][]**: Project documents.
 - **[figs/][]**: Figures and other images you generate. 
 - **[notes/][]**: Notes of the project and research diary. 
-- **[output/][]**: Other outputs, like CSVs to share data.
+- **[output/][]**: Other outputs, like CSVs or ESRI shapes to share data.
 - **[R/][]**: Scripts with functions created for this project.
 - **[var/][]**: Stores your processed of intermediate data or variables. 
 
