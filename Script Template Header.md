@@ -1,6 +1,6 @@
 # Templates for R Scripts
 
-These are my templates for the headers of R scripts. I've incorporated then to the RStudio snippets, so I can easily access them when I start a new script typing for instance `header.long+Tab` and the full header get inserted. 
+These are templates for the R scripts' headers. You can incorporate them to the RStudio snippets, so you can easily insert them when you start a new script typing for instance `header.long` and then press `Tab` and the full header will get inserted. 
 
 **Table of Contents**
 
@@ -10,14 +10,11 @@ These are my templates for the headers of R scripts. I've incorporated then to t
 - [Fields explanation](#fields-explanation)
 - [Long one](#long-one)
 - [Short one](#short-one)
-- [Courses](#courses)
-	- [General one](#general-one)
-	- [GIS and Spatial statistics](#gis-and-spatial-statistics)
 - [Snippets for RStudio](#snippets-for-rstudio)
-	- [Updating fields](#updating-fields)
-		- [Date & Update](#date--update)
-		- [System](#system)
-		- [RVersion](#rversion)
+    - [Updating fields](#updating-fields)
+        - [Date & Update](#date--update)
+        - [System](#system)
+        - [RVersion](#rversion)
 
 <!-- /MarkdownTOC -->
 
@@ -31,7 +28,7 @@ install.package("git2r")
 
 ## Fields explanation
 
-- `Title`: Descriptive title of the script. Try to be as concise. 
+- `Title`: Descriptive title of the script. Try to be as concise as possible. 
 - `Author/s`: The main authors of the script. On the contributors list you'll find the full list of authors. 
 - `Username/s`: This username of the authors, in the same order as the authors on the server —GitHub, GitLab, Bitbucket...— where the script is hosted. 
 - `Email/s`: Emails of the authors in the same order as the authors. 
@@ -46,7 +43,7 @@ install.package("git2r")
 - `Packages & Sources`: Here is were you call all the packages or script that are necessary to run the script. It's recommendable to at least give a reason why you load that specific source or package. 
     + `Loading all functions in R/`: This _just_ loads all the functions you have on the `R/` folder. You can disable or delete this if you just want to load specific ones, or you don't use the `R/` folder. 
 
-Some of the fields, like date or update, or even the authors and usernames  are perhaps a little bit redundant and even unnecessary if you are _running the show_ with the help of a VCS like git, where all that data usually are register. However, and IMHO, it's good to keep a little bit of old fashion meta-data for two reasons: 
+Some of the fields, like date or update, or even the authors and usernames  are perhaps a little bit redundant or even unnecessary if you are _running the show_ with the help of a VCS like git, where all that data usually are register. However, and IMHO, it's good to keep a little bit of old fashion meta-data for two reasons: 
 
 1. Sometimes scripts get stranded, they are copied, or moved, from their original working or project directories, so they lose the connection with the meta-data provided by the VCS.
 2. It helps to have an idea _at glance_ of what is the script about, who created it and so on. 
@@ -57,9 +54,9 @@ Some of the fields, like date or update, or even the authors and usernames  are 
 #!/usr/bin/env Rscript 
 # Header ####
 # Title       : Template for R Scripts
-# Author/s    : Luis Puerto
-# Username/s  : @luispuerto
-# Email/s     : luiss.puerto@gmail.com
+# Author/s    : Name Surname
+# Username/s  : @username
+# Email/s     : your.email@email.com
 # Date        : Fri, 02 Aug 2019
 # Updated     : Not yet
 # Version     : 0.1 <- This field only appears if there isn't git repo in WD.
@@ -85,8 +82,8 @@ sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source)
 #!/usr/bin/env Rscript 
 # Header ####
 # Title       : Template for R Scripts
-# Author/s    : Luis Puerto (luispuerto)
-# Email       : luiss.puerto@gmail.com
+# Author/s    : Name Surname (luispuerto)
+# Email       : your.email@email.com
 # Date        : Fri, 02 Aug 2019  
 # Version     : 0.1 <- This field only appears if there isn't git repo in WD.
 # Description : 
@@ -98,77 +95,6 @@ sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source)
 
 # Loading all functions in R/
 sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source)
-
-# Script's Body ####
-```
-
-## Courses
-
-### General one 
-
-```r
-#!/usr/bin/env Rscript 
-# Header ####
-# Title       : Script Title
-# Author/s    : Luis Puerto
-# Username/s  : @luispuerto
-# Email/s     : luiss.puerto@gmail.com
-# Date        : Fri, 02 Aug 2019
-# Updated     : Not yet
-# Version     : 0.1 <- This field only appears if there isn't git repo in WD. 
-# Description : 
-#   Short description of this script
-# Course      : 
-# Professor   : 
-# Book        : 
-# Chapter     : 
-# Exercise    : 
-# URL         : 
-
-# System/s    : macOS Mojave 10.14.6
-# R version   : 3.6.1 (2019-07-05) -- "Action of the Toes"
-# License     : General Public License 3 (GPL-3.0)
-
-# Packages & Sources ####
-# Ex: library(XXXX) # why? version? source? 
-
-# Loading all functions in R/
-sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source)   
-
-# Script's Body ####
-```
-
-### GIS and Spatial statistics
-
-```r
-#!/usr/bin/env Rscript 
-# Header ####
-# Student     : Luis Puerto
-# StiL        : giv13lpu
-# ITC Nº      : s6014860
-# email       : luis.puerto.972@student.lu.se
-
-# Course      : GISN21 - GIS and Spatial statistics
-# Coord. Prof.: Vaughan Phillips
-
-# Lesson      : 03 Hypothesis Testing
-# Exercise/s  : 03b Hypothesis Testing
-# Title       : Script Title
-# Date        : Fri, 02 Aug 2019
-# Updated     : Not yet
-# Version     : 0.1 <- This field only appears if there isn't git repo in WD.
-# Description : 
-#   Short description of this script.
-
-# System/s    : macOS Mojave 10.14.6
-# R version   : 3.6.1 (2019-07-05) -- "Action of the Toes"
-# License     : General Public License 3 (GPL-3.0)
-
-# Packages & Sources ####
-# Ex: library("XXXX") # why? version? source? 
-
-# Loading all functions in R/
-sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source) 
 
 # Script's Body ####
 ```
@@ -223,104 +149,13 @@ snippet os.version
 
 snippet date
     `r paste(format(Sys.time(),"%a, %b %d %Y"))`
-    
-snippet header.iGEON
-    #!/usr/bin/env Rscript 
-    # Header ####
-    # Student     : Luis Puerto
-    # StiL        : giv13lpu
-    # ITC Nº      : s6014860
-    # email       : luis.puerto.972@student.lu.se
-    
-    # Course      : GISN21 - GIS and Spatial statistics
-    # Coord. Prof.: Vaughan Phillips
-    
-    # Lesson      : ${1:03 Hypothesis Testing}
-    # Exercise/s  : ${2:03b Hypothesis Testing}
-    # Title       : ${3:Script Title}
-    `r paste0("# Date        : ", format(Sys.time(),"%a, %b %d %Y"))`
-    # Updated     : Not yet`r ifelse(git2r::in_repository(),"" ,"\n# Version     : 0.1")`
-    # Description : 
-    #   ${4:Short description of this script.}
-    
-    `r paste0("# System/s    : ", osVersion)`
-    `r paste0(
-          "# R version   : ",
-          version[["major"]],
-          ".",
-          version[["minor"]],
-          " (",
-          version[["year"]],
-          "-",
-          version[["month"]],
-          "-",
-          version[["day"]],
-          ") -- \"",
-          version[["nickname"]],
-          "\""
-        )`
-    # License     : General Public License 3 (GPL-3.0)
-
-    # Packages & Sources ####
-    # Ex: library("XXXX") # why? version? source? 
-    
-    # Loading all functions in R/
-    sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source) 
-    
-    # Script's Body ####
-    ${0}
-
-snippet header.courses
-    #!/usr/bin/env Rscript 
-    # Header ####
-    # Title       : ${1:Script Title}
-    # Author/s    : ${2:Luis Puerto}
-    # Username/s  : ${3:@luispuerto}
-    # Email/s     : ${4:luiss.puerto@gmail.com}
-    `r paste0("# Date        : ", format(Sys.time(),"%a, %b %d %Y"))`
-    # Updated     : Not yet`r ifelse(git2r::in_repository(),"" ,"\n# Version     : 0.1")`
-    # Description : 
-    #   ${5:Short description of this script}
-    # Course      : ${6:Course's Name}
-    # Professor   : ${7:Course's Professor}
-    # Book        : ${8:Course's Boork}
-    # Chapter     : ${9:Course's Chapter}
-    # Exercise    : ${10:Course's Exercise}
-    # URL         : ${11:Course's url}
-    
-    `r paste0("# System/s    : ", osVersion)`
-    `r paste0(
-          "# R version   : ",
-          version[["major"]],
-          ".",
-          version[["minor"]],
-          " (",
-          version[["year"]],
-          "-",
-          version[["month"]],
-          "-",
-          version[["day"]],
-          ") -- \"",
-          version[["nickname"]],
-          "\""
-        )`
-    # License     : General Public License 3 (GPL-3.0)
-    
-    # Packages & Sources ####
-    # Ex: library(XXXX) # why? version? source?
-    
-    # Loading all functions in R/
-    sapply(list.files(pattern="[.]R$", path="R", full.names=TRUE), source)
-    
-    # Script's Body ####
-    ${0}
 
 snippet header.short
     #!/usr/bin/env Rscript
     # Header ####
     # Title       : ${1:Script Title}
-    # Author/s    : ${2:Luis Puerto} (${3:@luispuerto})
-    # Email/s     : ${4:luiss.puerto@gmail.com}
+    # Author/s    : ${2:Name Surname} (${3:@username})
+    # Email/s     : ${4:your.email@email.com}
     `r paste0("# Date        : ", format(Sys.time(),"%a, %b %d %Y"),
                 ifelse(git2r::in_repository(),"","\n# Version     : 0.1"))`
     # Description : 
@@ -340,9 +175,9 @@ snippet header.long
     #!/usr/bin/env Rscript
     # Header ####
     # Title       : ${1:Script Title}
-    # Author/s    : ${2:Luis Puerto}
-    # Username/s  : ${3:@luispuerto}
-    # Email/s     : ${4:luiss.puerto@gmail.com}
+    # Author/s    : ${2:Name Surname}
+    # Username/s  : ${3:@username}
+    # Email/s     : ${4:your.email@email.com}
     `r paste0("# Date        : ", format(Sys.time(),"%a, %b %d %Y"))`
     # Updated     : Not yet`r ifelse(git2r::in_repository(),"" ,"\n# Version     : 0.1")`
     # Project     : ${6:`r basename(getwd())`}
