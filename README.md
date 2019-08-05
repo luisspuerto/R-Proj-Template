@@ -1,4 +1,4 @@
-# Template for R Analysis Projects
+[[[[#]]]] Template for R Analysis Projects
 
 ![https://img.shields.io/badge/Purpose-Template-red.svg](https://img.shields.io/badge/Purpose-Template-red.svg) 
 [![https://img.shields.io/badge/Lang-R-blue.svg](https://img.shields.io/badge/Lang-R-blue.svg)](https://www.r-project.org) 
@@ -15,14 +15,14 @@
 - [Introduction](#introduction)
 - [How to use this template](#how-to-use-this-template)
 - [Contents description](#contents-description)
-	- [Files](#files)
-		- [README.md](#readmemd)
-		- [Licenses & licensing](#licenses--licensing)
-		- [TODO.md](#todomd)
-		- [CONTRIBUTING.md](#contributingmd)
-		- [.gitignore](#gitignore)
-		- [.gitkeep\(s\)](#gitkeeps)
-	- [Folders](#folders)
+    - [Files](#files)
+        - [README.md](#readmemd)
+        - [Licenses & licensing](#licenses--licensing)
+        - [TODO.md](#todomd)
+        - [CONTRIBUTING.md](#contributingmd)
+        - [.gitignore](#gitignore)
+        - [.gitkeep\(s\)](#gitkeeps)
+    - [Folders](#folders)
 - [Script template headers](#script-template-headers)
 - [Prerequisites & recommendations](#prerequisites--recommendations)
 - [Contributing, cloning or forking this template](#contributing-cloning-or-forking-this-template)
@@ -30,7 +30,7 @@
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-	- [ProjectTemplate](#projecttemplate)
+    - [ProjectTemplate](#projecttemplate)
 
 <!-- /MarkdownTOC -->
 
@@ -48,7 +48,7 @@ The template right now is heavily biased towards macOS, at least explanations an
 You can clone, fork or directly download this project to use it. If you want to clone it using Git on the shell use the following command in the folder where you want to clone. 
 
 ```
-git clone https://github.com/luispuerto/R-Proj-Template.git
+$ git clone https://github.com/luispuerto/R-Proj-Template.git
 ```
 
 Once you have the files you can **copy** the `/Template` folder elsewhere —in your working folder, like `Coding` or `MyRepos` or whatever you use to store your R projects— and rename it for your project. You can then begin to customize the template to your and/or your project's needs. 
@@ -175,6 +175,11 @@ Then, I recommend you to get.
 - **[Typora][]**: Markdown editor. Sometimes I use this wonderful markdown editor to edit my documentation since it's a [WYSIWYG][] lightweight editor. 
 - **[ProjectTemplate][]**: ProjectTemplate is a system for automating the thoughtless parts of a data analysis project. It's a solid call if you want to go even further in the automation process of providing R with a template for projects. 
 
+For the snippets in template for script headers: 
+
+- **[RStudio][]**: A free and open-source integrated development environment (IDE) for R.
+- **[`git2r` R package][git2r]**: The `git2r` package gives you programmatic access to Git repositories from R. Internally the package uses the libgit2 library which is a pure C implementation of the Git core methods.
+
 ## Contributing, cloning or forking this template
 
 Please feel free to comment or even contribute to this project in anyway you want to this template, this is just a beginning and I want to make it as useful as possible to anyone. 
@@ -193,7 +198,7 @@ You can see the full list of [contributors][] who participated in this project.
 
 ## License
 
-The _code_ of this project is licensed under GNU General Public License v3.0 `GPL-3.0-or-later` –see the [LICENSE.md](LICENSE.md) file for more details. The rest of the content of this project is licensed under Attribution-NonCommercial-ShareAlike 4.0 International `CC-BY-NC-SA-4.0` –see the [LICENSE4CONTENT.md](LICENSE4CONTENT.md) for more details.
+The _code_ of this project is licensed under GNU General Public License v3.0 `GPL-3.0` –see the [LICENSE.md](LICENSE.md) file for more details. The rest of the content of this project is licensed under Attribution-NonCommercial-ShareAlike 4.0 International `CC-BY-NC-SA-4.0` –see the [LICENSE4CONTENT.md](LICENSE4CONTENT.md) for more details.
 
 ## Acknowledgments
 
@@ -276,3 +281,5 @@ Anyhow, [ProjectTemplate][] can be [customized][PTcustom] so feel free to adapt 
 [14]: https://nicercode.github.io/blog/2013-05-17-organising-my-project/
 [Issues]: https://github.com/luispuerto/R-Proj-Template/issues
 [Projects]: https://github.com/luispuerto/R-Proj-Template/projects
+[git2r]: https://github.com/ropensci/git2r
+
