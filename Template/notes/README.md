@@ -35,6 +35,10 @@ snippet header.diary
 
 Remember that for insert snippets on markdown, you have to write the full name of the snippet and then push `Shift + Tab`. 
 
+Both files `Notes.Rmd` and `diary/YYYY-MM-DD-Entry-Title.Rmd` are the file that RStudio produces when you create a new RMarkdown file. 
+
+Ad before you can also create a subfolder structure to serve your needs, but please keep it simple and as _spaceless_ as possible. 
+
 On this readme you can also explain a little bit about the purpose of the different research notes fields and create a small description. 
 
 ---
