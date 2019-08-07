@@ -1,5 +1,30 @@
-Unlicense (Public Domain)
-============================
+---
+title: The Unlicense
+spdx-id: Unlicense
+hidden: false
+
+description: A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+how: Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root of your source code and copy the text of the license disclaimer into the file.
+
+using:
+  - youtube-dl: https://github.com/rg3/youtube-dl/blob/master/LICENSE
+  - kakoune: https://github.com/mawww/kakoune/blob/master/UNLICENSE
+  - RDF.rb: https://github.com/ruby-rdf/rdf/blob/master/UNLICENSE
+
+permissions:
+  - private-use
+  - commercial-use
+  - modifications
+  - distribution
+
+conditions: []
+
+limitations:
+  - liability
+  - warranty
+
+---
 
 This is free and unencumbered software released into the public domain.
 
@@ -24,4 +49,4 @@ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-For more information, please refer to &lt;<http://unlicense.org/>&gt;
+For more information, please refer to <http://unlicense.org>
